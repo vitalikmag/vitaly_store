@@ -6,7 +6,6 @@ from django.views.generic.list import ListView
 from products.models import Basket, Product, ProductCategory
 from store.common.views import TitleMixin
 
-# тут создаем контроллеры
 
 class IndexView(TitleMixin, TemplateView):
     template_name = 'products/index.html'
