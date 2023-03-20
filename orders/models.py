@@ -3,7 +3,6 @@ from django.db import models
 from products.models import Basket
 from users.models import User
 
-# Create your models here.
 
 class Order(models.Model):
     CREATED = 0
